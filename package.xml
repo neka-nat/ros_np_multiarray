@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>ros_np_multiarray</name>
-  <version>0.0.0</version>
-  <description>The ros_np_multiarray package</description>
+  <version>0.0.1</version>
+  <description>Convert between numpy ndarray and ros multiarray message</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="nekanat@todo.todo">nekanat</maintainer>
+  <maintainer email="nekanat.stock@gmail.com">nekanat</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>BSD</license>
 
 
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
@@ -48,6 +48,8 @@
   <!--   <test_depend>gtest</test_depend> -->
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
+  <exec_depend>python-numpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
   <buildtool_depend>catkin</buildtool_depend>
 
 
