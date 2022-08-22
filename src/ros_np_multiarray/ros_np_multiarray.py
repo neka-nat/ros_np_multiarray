@@ -15,7 +15,7 @@ def _numpy_to_multiarray(multiarray_type, np_array):
     return multiarray
 
 def _multiarray_to_numpy(pytype, dtype, multiarray):
-    dims = map(lambda x: x.size, multiarray.layout.dim)
+    dims = tuple(map(lambda x: x.size, multiarray.layout.dim))
     return np.array(multiarray.data, dtype=pytype).reshape(dims).astype(dtype)
 
 
