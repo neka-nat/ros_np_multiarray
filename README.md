@@ -7,7 +7,7 @@ Convert between numpy ndarray and ros multiarray message.
 This is a simple example.
 
 ```py
-import ros_np_multiarray as rnm
+from ros_np_multiarray import ros_np_multiarray as rnm
 import numpy as np
 
 print(rnm.to_multiarray_f32(np.array([[[1.0, 2.0], [3.0, 4.0]]], dtype=np.float32)))
