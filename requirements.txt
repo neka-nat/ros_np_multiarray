@@ -1,0 +1,2 @@
+catkin_pkg==0.4.24
+numpy==1.19.5
